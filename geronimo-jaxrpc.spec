@@ -3,7 +3,7 @@
 
 Name:             geronimo-jaxrpc
 Version:          2.1
-Release:          13%{?dist}
+Release:          14%{?dist}
 Summary:          Java EE: Java API for XML Remote Procedure Call v1.1
 Group:            Development/Libraries
 License:          ASL 2.0 and W3C
@@ -70,6 +70,9 @@ sed -i 's/\r//' LICENSE NOTICE
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1-14
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 2.1-13
 - Migrate away from mvn-rpmbuild (Resolves: #997503)
 
